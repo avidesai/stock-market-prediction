@@ -21,7 +21,7 @@ Models can be staked with NMR cryptocurrency to earn rewards based on performanc
 
 Numerai provides a free dataset of high quality financial data that has been cleaned, regularized, and obfuscated.
 
-![Untitled](numerai%20pr%20d5d95/Untitled.png)
+![Untitled](Untitled.png)
 
 - `id` represents a stock at a certain time `era`
 - `feature` describes a quantitative attribute of a stock at that time.
@@ -74,11 +74,11 @@ correlation = np.corrcoef(labels, ranked_predictions)[0, 1]
 
 Your model's live scores can be viewed publicly on its model profile page. Here is an example of a model's final scores over the past 20 rounds.
 
-![Untitled](numerai%20pr%20d5d95/Untitled%201.png)
+![Untitled](Untitled%201.png)
 
 You can also zoom in to a specific round and see the 20 daily scores within the round.
 
-![Untitled](numerai%20pr%20d5d95/Untitled%202.png)
+![Untitled](Untitled%202.png)
 
 # Payout
 
@@ -101,4 +101,4 @@ payout = stake_value * payout_factor * (corr * corr_multiplier + mmc * mmc_multi
 
 The *payout factor* is a number that scales with the total NMR staked across all models by all users in the tournament. The higher the total NMR staked, the lower the payout factor.
 
-Payouts are made at the resolution of each round. You can choose whether you want your payouts to compound into your stake or get paid out to your wallet every round.
+Payouts are made at the resolution of each round. You can choose whether you want your payouts to compound into your stake or get paid out to your wallet every roundi.
